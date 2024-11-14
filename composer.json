@@ -1,0 +1,19 @@
+{
+  "name": "piotrpress/asset-block",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "description": "This plugin adds an Asset Block for enqueueing registered scripts and styles in content, solving the issue of loading assets with patterns.",
+  "homepage": "https://github.com/PiotrPress/wordpress-asset-block",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://piotr.press"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wp", "gutenberg", "block", "asset-block", "asset", "script", "style", "assets", "scripts", "styles", "blocks", "fse", "full-site-editing"
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
