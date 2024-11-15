@@ -40,6 +40,7 @@ add_action( 'init', function() {
         'textdomain' => 'piotrpress-asset-block',
         'editor_script_handles' => [ 'piotrpress-asset-block' ],
         'render_callback' => function( $attributes ) {
+            if( ! in_array( $attributes[ 'type' ], [ 'script', 'style' ] ) ) return;
             $function = 'wp_enqueue_' . $attributes[ 'type' ];
             $function( $attributes[ 'handle' ] );
         }
